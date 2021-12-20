@@ -1,0 +1,42 @@
+Threads: (A unit of execution within a process)
+A unit of work or single sequential flow of control.
+Sequential of programming instruction that can be managed independent.
+Allow program to split into simultaneaously running task.
+
+Process:
+when an application strarts, the processor
+allocate memory and resources for execution
+Default execution mode of a process is concurrent.
+
+
+A Java Application:
+
+A single process (JVM) --> Consists of various threads --> Application thread (responsible for running main method)
+--> others threads for runtime concerns like garbage collections
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+operating scheduler(system) makes a runnable tread to be running.
+ Synchronization:
+ 	make sure two threads don't simultaneously access a critical data element
+ 	control Data, not code
+ 	It is a JVM feature
+ 	how to implement:
+ 		blockcode -- isolatethis (accessible by one thread at a time)
+ 		synchronized () {
+ 		
+ 		}
+ 
